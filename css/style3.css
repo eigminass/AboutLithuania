@@ -1,0 +1,117 @@
+.content{
+    display: flex;
+    margin-top: 5vh;
+}
+
+.article{
+    
+    padding: 20px 30px;
+    font-size: 1.2em;
+    line-height: 27px;
+    text-align: justify;
+    
+}
+
+.article > h2{
+    margin-bottom: 3.2vh;
+    
+}
+
+
+.imi{
+    float: right;
+    padding: 8px 0px 20px 20px;
+}
+
+.battle{
+    width: 100%;
+}
+
+
+
+
+#footer-container{
+    background-color: #141b13;
+}
+
+footer{
+    text-align: center;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+footer > p{
+    padding-top: 15px;
+}
+
+#yellow{
+    color: yellow;
+}
+
+#green{
+    color: green;
+}
+
+#red{
+    color: red;
+}
+
+a.icon{
+    display: none;
+}
+
+#myLinks{
+    display: none;
+}
+
+.ethnograpic-map-mobile{
+    display: none;
+}
+
+@media only screen and (max-width: 1200px){
+    .imi{
+        width: 60%;
+    }
+    
+    .introduction p{
+        font-size: 1.2em;
+        /* text-align: justify; */
+    }
+}
+
+@media only screen and (max-width: 480px){
+    h2{
+        text-align: center;
+    }
+
+    .article{
+        font-size: 17px;
+        text-align: left;
+    }    
+
+    
+}
+
+
+#yellow{
+    color: yellow;
+}
+
+#green{
+    color: green;
+}
+
+#red{
+    color: red;
+}
+
+
+
+#active{
+    color: rgba(66, 12, 12, 0.911);
+    font-weight: bold;
+}
+
+

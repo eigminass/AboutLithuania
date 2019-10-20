@@ -1,0 +1,300 @@
+.empty{
+    min-width: 150px;
+    max-width: 550px;
+}
+
+.content{
+    display: flex;
+    margin-top: 5vh;
+    text-align: justify;
+    width: 100%;
+}
+
+.introduction h2{
+    margin-bottom: 3.2vh;
+    padding-right: 3vw;
+    padding-left: 3vw;
+}
+
+.block{
+    margin-top: 12vh;
+    margin-bottom: 5vh;
+}
+
+
+
+.block > p{
+    font-size: 1.3vw;
+    line-height: 4vh;
+    margin-bottom: 5vh;
+    padding-right: 3vw;
+    padding-left: 3vw;
+}
+
+.about{
+    margin-top: 1vh;
+}
+
+.map-and-description{
+    display: flex;
+}
+
+.ethnograpic-map > img{
+    width: 25vw;
+    padding-right: 3vw;
+    padding-left: 3vw;
+    height: 100%;
+}
+
+#mapImageMobile{
+    display: none;
+}
+
+.description > h2{
+    margin-left: 4vw;
+    margin-bottom: 4vh;
+}
+
+.description > p{
+    font-size: 1.3vw;
+    line-height: 5vh;
+    margin-left: 4vw;
+    padding-right: 3vw;
+    padding-left: 3vw;
+}
+
+.mapMobile{
+    display: none;
+}
+
+.mapMobile > img{
+    float: right;
+    padding: 0px 3vw 5px 20px;
+    margin-top: 8px;
+}
+
+.political-system-description > p{
+    font-size: 1.3vw;
+    line-height: 5vh;
+    padding-right: 3vw;
+    padding-left: 3vw;
+}
+
+
+
+.team{
+    text-align: center;
+}
+
+#basketballTeam{
+    width: 90vw;
+}
+
+#winterImageMobile{
+    display: none;
+}
+
+#winterImage{
+    width: 50%;
+    float: right;
+    padding: 58px 3.1% 0px 20px;
+}
+
+.intro-video{
+    margin-top: 12vh;
+    text-align: center;
+    margin-bottom: 5vh;
+}
+
+.intro-video > iframe{
+    width: 60vw;
+    height: 60vh;
+    margin-top: 5vh;
+}
+
+#footer-container{
+    background-color: #141b13;
+}
+
+footer{
+    text-align: center;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+footer > p{
+    padding-top: 15px;
+}
+
+
+
+
+/* Checked and updated until here */
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1200px){
+
+    /* 
+        On smaller devices image needs
+        to be floated to right
+    */
+
+    .map-and-description{
+        display: none;
+    }
+
+    .mapMobile{
+        display: inline;
+    }
+
+    .mapMobile > h2{
+        margin-top: 45px;
+    }
+
+    .block{
+        margin-top: 45px;
+    }
+
+    .about{
+        margin-top: 45px;
+    }
+
+
+
+    .content{
+        margin-top: 0;
+    }
+
+    
+
+    /* #winterImage{
+        padding-top: 7.5%;
+        padding-right: 2.5vw;
+    } */
+
+    
+
+    #headline{
+        font-size: 25px;
+    }
+
+    /* .block{
+        font-size: 20px;
+        
+    } */
+
+    .block p{
+        line-height: 30px;
+    }
+
+    .ethnograpic-map{
+        height: 230px;
+        float: right;
+    }
+
+   
+    .introduction p{
+        font-size: 1.2em;
+    }
+     
+    .intro-video{
+        margin-top: 30px;
+        text-align: center;
+        margin-bottom: 5vh;
+    }
+    
+    .intro-video > iframe{
+        width: 85%;
+        height: 350px;
+        margin-top: 5vh;
+    }
+    
+
+}
+
+
+.nav-menu{
+    text-align: center;
+    display: none;
+
+}
+
+.nav-menu ul{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.nav-menu li{
+    display: block;
+}
+
+.nav-menu li a{
+    padding: 20px 30px;
+    color: white;
+    font-size: 1.2em;
+    text-decoration: none;
+    display: block;
+}
+
+.nav-menu li a:hover{
+    background-color: brown;
+}
+
+@media only screen and (max-width: 480px){
+
+    .map-and-description{
+        visibility: hidden;
+    }
+
+    .mapMobile > img{
+        width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }    
+
+    .block{
+        text-align: left;
+    }
+
+    h2{
+        text-align: center;
+    }
+
+    #winterImage{
+        display: none;
+    }
+
+    #winterImageMobile{
+        display: block;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .intro-video > iframe{
+        height: 80%;
+    }
+
+    .intro-video{
+        text-align: center;
+    }
+
+    .introduction p{
+        font-size: 17px;
+    }
+}
+
+#active{
+    color: rgba(66, 12, 12, 0.911);
+    font-weight: bold;
+}

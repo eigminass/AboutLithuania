@@ -1,0 +1,136 @@
+#mushroom-list{
+    margin-left: 50px;
+}
+
+#ryeField{
+    width: 30%;
+    float: right;
+    padding: 7px 0.09% 0px 20px;
+}
+
+.breads{
+    display: flex;
+    width: 95%;
+}
+
+
+#bread{
+   width: 40%;
+   height: auto;
+   padding-left: 5%;
+}
+
+#jore{
+   width: 15%;
+   height: auto;
+   padding-left: 37%;
+}
+
+#veggies{
+    width: 100%;
+    padding-top: 2%;
+}
+
+#mushrooms{
+    list-style-type: none;
+}
+
+img.mushroomImage{
+    width: 150px;
+    height: 150px;
+    padding-right: 10%;
+    padding-top: 2%;
+}
+
+#gypsy{
+    width: 150px;
+    height: 150px;
+    padding-top: 2%;
+}
+
+#tatarPie{
+    width: 30%;
+    height: 30%;
+    float: right;
+    padding: 0.5% 0% 0% 2%;
+}
+
+#beerImg1{
+    width: 29%;
+    height: 200px;
+    padding-right: 29.52%;
+}
+
+#beerImg2{
+    width: 40%;
+    height: 200px;
+}
+
+#berries{
+    width: 60%;
+    height: 400px;
+    margin-top: 2%;
+    margin-right: 19%;
+    margin-left: 20%;
+}
+
+@media only screen and (max-width: 1200px){
+    #beerImg1{
+        width: 29%;
+        height: 150px;
+    }  
+
+    #beerImg2{
+        width: 40%;
+        height: 150px;
+    }
+
+    #berries{
+        width: 80%;
+        height: 300px;
+        margin-right: 9%;
+        margin-left: 10%;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    #ryeField{
+        width: 50%;
+    }
+
+    img.mushroomImage{
+        width: 70px;
+        height: 70px;
+        padding-right: 10%;
+        padding-top: 2%;
+    }
+    
+    #gypsy{
+        width: 70px;
+        height: 70px;
+        padding-top: 2%;
+    }
+
+    h2{
+        text-align: center;
+    }
+
+    .article{
+        font-size: 17px;
+    }
+
+    #berries{
+        height: 10%;
+    }
+    
+    #beerImg1{
+        width: 29%;
+        height: 100px;
+        padding-right: 29.52%;
+    }
+    
+    #beerImg2{
+        width: 40%;
+        height: 100px;
+    }
+}

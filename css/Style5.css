@@ -1,0 +1,32 @@
+/* Images */
+
+#trakai{
+    width: 100%;
+    padding-top: 2%;
+}
+
+#ethnicities{
+    width: 40%;
+    padding-top: 2%;
+}
+
+#education{
+    width: 40%;
+    padding-top: 2%;
+}
+
+#nationalMuseum{
+    width: 100%;
+    padding-top: 2%;
+}
+
+#folk{
+    width: 40%;
+    float: right;
+    padding: 0.5% 0% 0% 2%;;
+}
+
+#indoEuropeanLanguages{
+    width: 50%;
+    padding-top: 2%;
+}
